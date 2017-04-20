@@ -1,0 +1,13 @@
+# Drop requests for unknown hosts
+#
+# If no default server is defined, nginx will use the first found server.
+# To prevent host header attacks, or other potential problems when an unknown
+# servername is used in a request, it's recommended to drop the request
+# returning 418 "i'm a teapot".
+
+server {
+   listen 443 ssl default_server;
+   # ssl configuration
+   include conf.d/ssl/ssl.conf;
+   return 418;
+}
