@@ -2,7 +2,7 @@
 [![Runtime][runtime-badge]][nginx-runtime-url]
 [![License][license-badge]][nginx-license-url]
 
-`Nginx Configurations for a Secure Reverse Proxy` is a collection of Nginx configurations that include some best practices to secure your application.
+**Nginx Configurations for a Secure Reverse Proxy** is a collection of Nginx configurations that include some best practices to secure your application.
 
 It's based and inspired by [**Nginx Server Configs**][h5bp-server-configs-nginx] and other materials that I found over the internet.
 
